@@ -1,0 +1,39 @@
+
+
+.paragraph {
+  color: rgb(247, 235, 219);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-content p{
+    color: aliceblue;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.button {
+  width: 50%;
+  background-color: rgb(105, 65, 16);
+  color: rgb(217, 217, 233);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: orange;
+}

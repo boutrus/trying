@@ -1,0 +1,104 @@
+/* Grid.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; /* Two columns in a row */
+    gap: 40px; /* Gap between grid items */
+  }
+  
+  .grid-item1 {
+    background-color: wheat;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .grid-item2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+  }
+
+  .grid-item3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+  }
+  
+  .grid-item1:hover {
+    cursor: pointer;
+    background-color: rgb(108, 95, 76);
+    transform: scaleX(106%);
+    transition: ease-in-out, 1.5s;
+    border-radius: 25px;
+  }
+  
+  .grid-item2:hover {
+    cursor: pointer;
+    background-color: rgb(108, 95, 76);
+    transform: scaleX(106%);
+    transition: ease-in-out, 1.5s;
+    border-radius: 25px;
+  }
+
+  .grid-item3:hover {
+    cursor: pointer;
+    background-color: rgb(108, 95, 76);
+    transform: scaleX(106%);
+    transition: ease-in-out, 1.5s;
+    border-radius: 25px;
+  }
+  
+  .fill-text {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .paragraph {
+    margin-top: 0; /* Remove margin from the top of the paragraph */
+    color: black;
+  }
+  
+  /* Style the buttons */
+  
+  
+  
+  .grid-item2 button:hover,
+  .grid-item3 button:hover {
+      background-color: #cbcdcb;
+      color: black;
+      cursor: pointer;
+  }
+  
+  li {
+    color: black;
+    display: block;
+  }
+
+  .grid-item2 button {
+    margin-left: 27px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(233, 232, 232);
+    background-color: rgb(53, 52, 52);
+  }
+
+  .grid-item3 button {
+    margin-left: 27px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(233, 232, 232);
+    background-color: rgb(53, 52, 52);
+  }
+
